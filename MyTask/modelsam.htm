@@ -61,7 +61,7 @@
          height:510px;
         }
     .navbar-inverse.nav-upper {
-  height: 50px;
+  height: 40px;
 }
 .navbar-inverse.nav-upper ul {
   float: right;
@@ -72,13 +72,9 @@
   font-size: 14px;
 }
 .navbar-inverse.nav-upper .navbar-upper > li > a {
-  color: #777;
+  color: green;
 }
-@media (min-width: 768px) {
-  .navbar.navbar-lower .navbar-nav {
-    margin-left: 55px;
-  }
-}
+
 .small-img:hover{
             height:65px;
             width:33px;
@@ -93,31 +89,49 @@
         width:78px;
         height:18px;
         }
-.navbar-logo {
-  background-image: url('https://lh3.googleusercontent.com/-tw5LsU4Fg28/Umo6BBcoCnI/AAAAAAAAmjE/1iqULsem06E/w896-h896/heisencat.png');
-  width: 90px;
-  height: 90px;
-  background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 85px;
-  left: 25px;
-  z-index: 1051;
-}
+@media (max-width: 768px) {
+            .navbar-inverse.nav-upper .navbar-upper >li > img {
+                width:104px;
+                height:32px;
+            }
+            .navbar-inverse.navbar-lower .navbar-header >img {
+              width:60px;
+              height:60px;
+            }
+            .brandlogo .brand-name{
+                font-size:40px;
+            }
+            
+            }
+       .brand-name{
+            font-size:50px;
+            margin-left:5px;
+            font-style:italic;
+            margin-bottom:0px;
+            animation: animation1 2s infinite;   
+            }
+        .brand-name-2{
+            font-size:15px;
+            animation: animation2 2s infinite;
+            }
+        
+        @-webkit-keyframes animation1 {
+            from {color : #595959;}
+            to {color : #cccccc;}
+            }
+        @-webkit-keyframes animation2{
+            from {color:#cccccc;}
+            to {color:#595959;}
+            }   
     
+
     </style>
 </head>
 <body>
     <div class="container-fluid">
         <div class="brandlogo">
-            <h1>&nbsp;&nbsp;
-            <strong><i>MyMobila</i></strong><small><cite> World of Mobiles</cite></small>
-        </h1>
-        </div>
-        
-        <a class="navbar-logo" href="#"></a>
-
+           <label class="brand-name">My Mobila</label>- <label class="brand-name-2"><em>world of mobiles</em></label>
+       </div>
 <nav class="navbar-inverse nav-upper">
   <div class="container-fluid">
     <ul class="nav navbar-upper">
@@ -133,6 +147,7 @@
   <div class="container-fluid">
 
     <div class="navbar-header">
+        <img src="MyTaskImages/logo.png" width="80" height="80">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"><span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -141,7 +156,7 @@
     </div>
 
     <div class="collapse navbar-collapse" id="navbar">
-        <div class="col-sm-3">
+        <div class="col-sm-2">
             <ul class="nav navbar-nav">
                 <li><a href="home.htm" id="allbtn"><h4><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My Store</b></h4></a></li>
       </ul>
@@ -210,15 +225,15 @@
                 <div class="model-details">
                     
                     <ul class="nav nav-tabs">
-                            <li class="active"><a data-toggle="tab" href="#price"><h4>Price</h4></a></li>
-                            <li><a data-toggle="tab" href="#spec"><h4>Specification</h4></a></li>
-                            <li><a data-toggle="tab" href="#comment"><h4>Comments</h4></a></li>
+                            <li class="active"><a data-toggle="tab" href="#price"><h3><b>Price</b></h3></a></li>
+                            <li><a data-toggle="tab" href="#spec"><h3><b>Specification</b></h3></a></li>
+                            <li><a data-toggle="tab" href="#comment"><h3><b>Comments</b></h3></a></li>
                     </ul>
                     <div class="tab-content">
                             <div id="price" class="tab-pane fade in active">
                                <div>
                                    <div class="item-name"><h1><b>Samsung Galaxy S6 Edge (Gold Platinum)</b></h1></div>
-                                   <div class="item-specification"><h3>( 32GB RAM, 8MP fornt, 16MP rear, 4100mAh Battery )</h3></div>
+                                   <div class="item-specification"><h3>( 32GB RAM, 8MP front, 16MP rear, 4100mAh Battery )</h3></div>
                                    <div class="item-price"><h1><b>Price : <i class="fa fa-inr"></i> 32,990<small>&nbsp;&nbsp;&nbsp;&nbsp;</small></b></h1></div>
                                    <div class="shipping"><h4>(Free Shipping on above Rs.2000 purchase)</h4></div>
                                    <div class="warrenty">
@@ -232,13 +247,13 @@
                                        <h4>
                                            <strong>Colour</strong> : Gold Platinum
                                        </h4>
-                                       <div class="col-sm-1 col-xs-3" style="height:85px; width:150px; margin-left:20px;border:groove;">
-                                           <div class="col-sm-6" style="">
+                                       <div class="col-sm-1 col-xs-6" style="height:85px; width:150px; margin-left:20px;border:groove;">
+                                           <div class="col-sm-6 col-xs-6" style="">
                                                <center><img src="MyTaskImages/remi4.jpg" alt="mi_note_4" style="margin-top:5px; margin-bottom:10px; border-radius:2px;" width="30px" height="60px" class="small-img"></center> 
                                            </div><br><strong>black</strong>
                                        </div>
-                                       <div class="col-sm-1 col-xs-3" style="height:85px; width:150px; margin-left:20px;border:groove;">
-                                           <div class="col-sm-6" style="">
+                                       <div class="col-sm-1 col-xs-6" style="height:85px; width:150px; margin-left:20px;border:groove;">
+                                           <div class="col-sm-6 col-xs-6" style="">
                                                <center><img src="MyTaskImages/sammain.jpg" alt="mi_note_4" style="margin-top:5px; margin-bottom:5px; border-radius:2px;" width="30px" height="60px" class="small-img"></center> 
                                            </div><br><strong>Gold</strong>
                                        </div>
@@ -348,12 +363,12 @@
                                     <div class="comment-box row">
                                         <div class="col-sm-9">
                                             <textarea class="" rows="10" cols="102"></textarea>
-                                             <button class="btn btn-default ">
-                                               &nbsp;&nbsp; Comment
-                                            </button>
+                                             
                                         </div>
                                         
-                                           
+                                           <button class="btn btn-default ">
+                                               &nbsp;&nbsp; Comment
+                                            </button>
                                         
                                     </div>
                                     <br><br>
