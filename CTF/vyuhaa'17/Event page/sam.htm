@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css" media="screen,projection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="row">
+        <div class="col s12">
+            <ul class="tabs">
+               <li class="tab col s4"><a href="#event1" class="active">event 1</a></li> 
+               <li class="tab col s4"><a href="#event2" >event 2</a></li> 
+               <li class="tab col s4"><a href="#event3">event 3</a></li> 
+            </ul>
+        </div>
+   
+        <div class="col s6" id="event1">
+            <div class="card">
+                <div class="card-image">
+                    <img src="raj.jpg">
+                    <span class="card-title">Event1</span>
+                </div>
+                <div class="card-content">
+                    <p>This is the simple card example. Card is used to describe small bits of information. Card required to use markup to effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">This is a link</a>
+                    <button class="waves-effect waves-light btn">Yes<i class="material-icons right">thumb_up</i></button>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col s6" id="event2">
+            <div class="card">
+                <div class="card-image">
+                    <img src="raj.jpg">
+                    <span class="card-title">Event2</span>
+                </div>
+                <div class="card-content">
+                    <p>This is the simple card example. Card is used to describe small bits of information. Card required to use markup to effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">This is a link</a>
+                    <button class="waves-effect waves-light btn">Yes<i class="material-icons right">thumb_up</i></button>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="col s6" id="event3">
+            <div class="card">
+                <div class="card-image">
+                    <img src="raj.jpg">
+                    <span class="card-title">Event3</span>
+                </div>
+                <div class="card-content">
+                    <p>This is the simple card example. Card is used to describe small bits of information. Card required to use markup to effectively.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">This is a link</a>
+                    <button class="waves-effect waves-light btn">Yes<i class="material-icons right">thumb_up</i></button>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+        <script type="text/javascript" src="materialize/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+        <script>
+        $(document).ready(function(){
+            $('ul.tabs').tabs();
+        });
+        </script>
+</body>
+
+</html>
