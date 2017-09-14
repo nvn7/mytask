@@ -1,0 +1,8 @@
+body {
+  padding-top: 2rem;
+}
+.custom-template {
+  padding: 4rem 1rem;
+    background-color: Green;
+  text-align: right;
+}

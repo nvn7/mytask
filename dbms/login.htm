@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Login
+    </title>
+  </head>
+  <body style="background-color:yellow;font-family:cursive;">
+    <h1 style="color:pink;font-family:TimesNewRoman">
+      <center>
+        WELCOME !!!
+      </center>
+    </h1>
+    <script>
+      function check_func()    {
+        var username=document.getElementById("nameid").value;
+        var password=document.getElementById("paswrdid").value;
+        if(username==="naveen") {
+          if(password==="nvn7")     {
+            window.location="http://localhost:8080/My%20Website/mypage.html";
+          }
+          else     alert("Enter correct password");
+          return;
+        }
+        else   alert("Enter correct username");
+        return;
+      }
+    </script>
+    <center> Username :<br />  <input type="text" id="nameid" />  <br /><br />  Password: <br />    
+        <input type="password" id="paswrdid"/>  <br /><br />  <input type="button" value="login" onclick="check_func()" >  </center>    <br />
+      
+      <br /><br /><br /><br /><br />  
+      <hr>  <marquee behavior="slide" style="font-family:verdana;color:orange"><h3><h2>Naveen Kumar</h2>B.E(CSE),CEG,Anna University, Chennai-25</h3></marquee>  
+      <hr>
+    </body>
+</html>

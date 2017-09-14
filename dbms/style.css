@@ -1,0 +1,25 @@
+
+#frm{
+	border: solid gray 1px;
+	width: 20%;
+	border-radius : 5px;
+	margin: 100px auto;
+	background:red;
+	padding: 50px;	
+}
+#sen{
+	border: solid gray 1px;
+	width: 20%;
+	border-radius : 5px;
+	margin: 100px auto;
+	background:red;
+	padding: 50px;	
+}
+
+
+#but{
+	color:#fff;
+	background: #337ab7;
+	padding: 5px;
+	margin-left:69%;
+}

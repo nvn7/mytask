@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <title>First HTML</title>
+</head>
+
+<body style="background-color:lightgreen">
+
+  <h2> <center><i><u>Hai Friends!I'm  Naveen </u></i></center></h2>
+  <br />
+  <br />
+  <script>
+    function assign_val()
+     {
+  document.fname.age.value=document.fname.ag.value;   
+     document.fname.caste.value=document.fname.cas.value ;
+     document.fname.nam.value=document.fname.name1.value+document.fname.name2.value ; 
+       
+  document.fname.gen.value=document.fname.gend.value;
+     }
+  </script>
+  <form name="fname"
+>
+    <div>
+    First Name:
+    <input type="text" id="name1">
+    <br />
+    <br />
+   Last Name:
+    <input type="text" id="name2" >  
+  <br /><br/></div>
+
+
+    <div>
+    Gender :
+
+
+    <br />    
+    
+        <label>
+            <input type="radio" name="gend" value="Male"   >Male</label>
+   
+ 
+  <label>  <input type="radio" name="gend" value="Female" >Female</label>
+  
+  </div>
+  <br />
+  <div>
+
+   Age :
+               <input type="number" name="ag"  min="0" max="20" />
+  
+  </div>
+  
+<br />
+  <div>
+    Caste :
+  
+           <input list="caste" name="cas">
+      
+
+<datalist id="caste">
+<option value="SC/ST">
+<option value="MBC">
+<option value="BC">
+<option value="OC">    </datalist>
+
+</div>
+  <br /><br />
+    <center><em>After filling all fields <b>Click SUBMIT</b>  </em></center>
+  <br />
+     <center><input type="Button" value="SUBMIT" onclick="assign_val(this.form)"></center>
+
+  <table border="1" cellpadding="10%" bgcolor="lime" align="center">
+ <tr>
+  <th>Name</th>
+   <th>Age</th>
+   <th>Gender</th>
+   <th>Caste</th>
+ </tr>
+    <tr>
+      <td><output name="nam"></output></td>    
+      <td><output name="age">
+
+        </output></td>
+      <td><output name="gen"></output></td>
+      <td><output name="caste"></output></td>
+    </tr>
+</table>
+  </form>
+
+  
+  </body>
+
+</html>
