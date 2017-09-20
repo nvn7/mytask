@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-eqiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="bootstrap/Nicon.ico" rel="icon">
+<title>My Boostrap</title>
+<link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+</head>
+<body>
+
+<body style="background-color: black">
+<title>Staff details</title>
+<div class="container-fluid">
+			<div class="panel panel-info">
+	  		<div class="panel-heading " style="font-size: 35px;font-family: verdana; font-weight: bold; color:red;text-align: center;">Staff Details</div>
+	  		</div>
+	  		
+			<div class="row">
+			<div class="col-sm-9">
+			<div class="col-sm-4" style="font-weight: bold; font-size: 25px;color: peru;">
+			<font face="Comic Sans Ms">
+				Name
+				<br>
+				<br>
+				Class
+				<br><br>
+				DOB
+				<br><br>
+				Gender
+				<br><br>
+				Blood Group
+			</font>
+			</div>
+			<div class="col-sm-1" style="font-weight: bold; font-size: 25px;color:white">
+				:<br><br>:<br><br>:<br><br>:<br><br>:<br><br>
+				
+			</div>
+			<div class="col-sm-1" style="font-weight: bold; font-size: 25px;color: white">
+				C.Umapathi
+				<br><br>
+				XII
+				<br><br>
+				22/05/1998
+				<br><br>
+				Male	
+				<br><br>
+				AB+
+
+			</div>
+			</div>
+			<div class="col-sm-1">
+			<img src="/home/uma/Documents/pathi1.jpg" style="width: 200px;height: 200px ">
+			</div>
+			</div>
+			<br>
+			<br>
+			<div class="panel panel-info">
+				<div class="panel-heading" style="font-weight: bold; font-size: 35px;color: red;text-align: center;font-family: verdana;">Parents Details</div>
+
+			</div>
+				<div class="row">
+				<div class="col-sm-9">
+				<div class="col-sm-4" style="font-weight: bold;font-size: 25px; color: peru;" >
+					<font face="Comich8SansMs">
+						Father's Name
+						<br>
+						<br>
+						Mother's Name
+						<br>
+						<br>
+						Father's Occupation
+						<br>
+						Mother's Occupation
+						<br><br>
+						Father's Phone NO
+						<br><br>
+						Mother's Phone NO
+					</font>
+					</div>
+					<div class="col-sm-1" style="font-size: 25px; font-weight: bold;color: white;">
+						:<br><br>:<br><br>:<br><br>:<br><br>:<br><br>:
+					</div>
+					<div class="col-sm-7" style="font-weight: bold;font-size: 25px;color: white;">
+						Chennakesavan
+						<br><br>
+						Thenmozhi
+						<br>
+						<br>
+						Farmer
+						<br>
+						<br>
+						Farmer
+						<br>
+						<br>
+						890399496
+						<br><br>
+						    9787272944 
+					 </div>
+
+				</div>
+				<div class="rol-sm-3">
+					
+				</div>
+			</div>
+			<div class="panel panel-info">
+				<div class="panel-heading" style="font-weight: bold; font-size: 35px;color: red;text-align: center;font-family: verdana;">Postal Information</div>
+
+			</div>
+				<div class="row">
+				<div class="col-sm-9">
+				<div class="col-sm-4" style="font-weight: bold;font-size: 25px;color: peru;" >
+					<font face="Comich8SansMs">
+					Street Name
+					<br><br>
+					Post
+					<br><br>
+					City
+					<br><br>
+					District
+					<br><br>
+					State
+					<br><br>
+					Country
+					<br><br>
+					Postal Code
+					</font>
+					</div>
+					<div class="col-sm-1" style="font-size: 25px; font-weight: bold;color: white">
+						:<br><br>:<br><br>:<br><br>:<br><br>:<br><br>:<br><br>:
+					</div>
+					<div class="col-sm-7" style="font-weight: bold;font-size: 25px;color: white">
+					Kattur village
+					<br>
+					<br>
+					Setrapatti
+					<br><br>
+					Harur
+					<br><br>
+					Dharmapuri
+					<br><br>
+					Tamil Nadu
+					<br><br>
+					India
+					<br><br>
+					635 305
+
+<br>
+<br>
+	<script type="text/javascript">
+		function student()
+		{
+			header("")
+		}
+	</script>
+
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-eqiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="bootstrap/Nicon.ico" rel="icon">
+<title>My Boostrap</title>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<style type="text/css">
+	.alert{
+		width:300px;
+		margin-left: 400px;
+		font-size: 15px;
+		font-family: verdana;
+		font-weight: bold;
+	}
+	.fom{
+		padding-left:10px;
+		background-color: aqua;
+		color: black;
+
+	}
+	.form-horizontal .control-label{
+		padding-top: 10px;
+
+	}
+</style>
+</head>
+<body style="background-color:">
+<div class="container-fluid">
+<br><br>
+	<h1 style="text-align:center;margin-top:-20px; font-family: verdana;font-size:50px;">STUDENT LOGIN</h1>
+</div>
+<br>
+<br>
+<br>
+<div class="col-xs-2"></div>
+<form class="form-horizontal">
+<div class="col-xs-6" style="background-color:aqua;margin-left: 100px; ";>
+<div class="form-group" style="margin-top:50px;">
+	<label for="usr" class="control-label col-xs-2" >Name:</label>
+	<div class="col-xs-9">
+		<input type="text" class="form-control" id="usr" placeholder="username">
+	</div>
+	</div>
+
+<div class="form-group" style="margin-top:30px";>
+    <label for="pwd" for="inputerror" class="control-label col-xs-2">Password</label>
+    <div class="col-xs-9">
+	<input type="Password" class="form-control" id="pwd" placeholder="password">
+	</div>
+</div>
+<br>
+<button type="button" class=" btn btn-success btn-right" value="button" onclick="pass_func()" style="margin-left:500px;">SUBMIT</button>
+<br>
+<a href="file:///home/uma/Documents/Basic%20Template.html" style="margin-left:200px; font-weight: bold;font-size: 17px; color: black;">Forgot password</a>
+<br>
+<br>
+<a href="file:///home/uma/Documents/Basic%20Template.html" style="margin-left:200px; font-weight: bold;font-size: 17px; color: black;">New user?/register here!</a>
+<br>
+<br>
+</div>
+</form>
+<br>
+
+<p id="demo"></p>
+<script>
+	function pass_func()
+	{
+	var username=document.getElementById("usr").value;
+	var password=document.getElementById("pwd").value;
+	if(username==="c u pathi")
+	{
+		if (password==="pathi") {
+			window.location="file:///home/uma/Documents/student%20home%20page";
+		}
+		else
+			document.getElementById("demo").innerHTML="<div class='alert alert-danger alert-dismissable fade in'><a href='#' class='close' class='alert' data-dismiss='alert' aria-label='true' >&times;</a>Invalid Password</div>"
+		return;
+	}
+	else
+		document.getElementById("demo").innerHTML="<div class='alert alert-danger alert-dismissable fade in'> <a href='#' class='close' data-dismiss='alert' class='alert' aria-label='true'>&times;</a>Invalid Username</div>"
+	
+	return;
+	}
+	
+</script>
+<script type="text/javascript">
+	
+	function stud(){
+		header("")
+	}
+</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

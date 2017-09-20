@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-eqiv="X-UA-Compatible" content="IE-edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="bootstrap/Nicon.ico" rel="icon">
+<title>My Boostrap</title>
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+</head>
+<style>
+	body{
+	background-image:url("/home/uma/Documents/j.jpg");
+	background-repeat: no-repeat;
+	background-size: 1300px 700px;
+	background-position:;
+}
+.nav-item{
+	color: black;
+	font-size: 20px;
+	font-weight: bold;
+}
+</style>
+<body>
+<div class="container-fluid">
+	<nav class="navbar navbar-info">
+		<div class="navbar-header">
+			<div class="navbar-brand" style="color:red; font-family: verdana;font-weight: bold; margin-left:450px;font-size:30px;">
+				STAFF SECTION</div>
+		</div>
+		<ul class="nav navbar-nav nav-item navbar-right">
+			<li class="nav-item"><a href="#">+91 9787272944</a></li>
+			<li class="nav-item"><a href="#">Account</a></li>
+		</ul>
+		<br><br>
+	</nav>
+	<br><br><br>
+	<div class="row">
+	<div class="col-sm-3">
+	<nav class="navbar navbar-info">
+		<ul class="nav navbar-nav list-unstyled-inner-list"">
+			<li class="nav-item"><a href="#" class="active" style="color: black">Home&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span  class="glyphicon glyphicon-home"></a></span></li>
+			<br><br><br>
+			<li class="nav-item"><a href="#" onclick="staff()" style="color: black">My Personal&nbsp;&nbsp;<span class="glyphicon glyphicon-user"></a></span></li>
+			<br>
+			<br><br>
+			<li class="nav-item"><a href="#" onclick="staff_mark()" style="color: black">Stud Marks&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-education"></a></span></li>
+			<br><br><br>
+			<li class="nav-item"><a href="#" onclick="staff_table()" style="color: black">Time Table&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-list"></span></a></li>
+			<br><br><br>
+			<li class="nav-item"><a href="#" onclick="staff_log()" style="color: black">Log Out&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-log-out"></a></span></li>
+
+		</ul>
+	</nav>
+	</div>
+
+<div class="col-sm-8">
+<br><br><br><br><br><br>
+<center><p>
+
+<h1 style="text-align:center; color:blue;font-family:verdana; font-size:30px;"> 
+<img src="/home/uma/Documents/loo1.png" style="width:50px;height:50px;"></img><b>UNR Matriculation Higher Secondary School </b></h1>
+  <h1 style="font-family: verdana; color:blue;font-size: 25px;"> (ISO 9001:2008) Guindy,Chennai-600 025 </h1>
+</p>
+</center>
+</div>
+	</div>
+
+</div>
+<script type="text/javascript">
+function staff()
+{
+	document.location="file:///home/uma/Documents/staff%20details";
+}
+function staff_mark()
+{
+	document.location="file:///home/uma/Documents/staff_mark";
+}
+function staff_log() 
+{
+	document.location="file:///home/uma/Documents/navbar.html";
+}
+function staff_table()
+{
+	document.location="file:///home/uma/Documents/staff_timetable";
+}
+</script>
+<script type="text/javascript">
+	function password_func()
+	{
+		header("");
+	}
+</script>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+

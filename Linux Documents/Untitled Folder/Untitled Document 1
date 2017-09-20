@@ -1,0 +1,22 @@
+<!DOTYPE html>
+<html>
+<title> pathi</title>
+<head>
+<body style="background-color: blue";>
+<p>
+<h1 style="font-family:italy;">hi this is umapathi</h1>
+<a href="https://www.google.com">
+<h3 style="color:pink;font-family:verdana;text-align:center;">google</h3></a>
+<img src="/home/uma/Pictures/pathi.jpg" alt="pathi" style="width:350px;height:350px;img-align:center"></img>gugguyfutftf
+</p>
+<form>
+<center>
+user name:
+<input type="text" name="user name"><br>
+ password:
+ <input type= "password" name="password"><br>
+<input type="submit">
+</center>
+</form>
+</body>
+</html>
